@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: 
+        image: vaibhavrajput/flask-k8s-demo:latest
         command: ["python"]
         args: ["app.py"]
         ports:
